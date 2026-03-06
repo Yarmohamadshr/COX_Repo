@@ -1,7 +1,7 @@
 from src.data_preprocessing import load_data, preprocess_data
 from src.train_model import train_model
 from src.evaluate_model import evaluate
-from src.visualization import plot_confusion_matrix
+from src.visualization import plot_confusion_matrix, plot_feature_importance
 
 
 data_path = "data/telecom_churn_sample.csv"
